@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title> Futo GP Calculator</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/style/style.css">
+
+
+</head>
+<body>
+
+<div class="container">
+  
+  <div class="table-responsive">
+    
+    
+<table id="t2" class="table table-dark" style="">
+  <thead>
+    <tr class="bg-danger">
+      
+      <th scope="col" >Course Name</th>
+      <th scope="col">Grade</th>
+      <th scope="col">Unit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="bg-info">
+      
+      <td>
+        <input style="text-align: center; font-family: fantasy;" class="course" type="" name="" placeholder="Course Name">
+      </td>
+
+      <td>
+        <select>
+  <option value="A">A</option>
+  <option value="B">B</option>
+  <option value="C">C</option>
+  <option value="D">D</option>
+  <option value="E">E</option>
+  <option value="F">F</option>
+  </select>
+      </td>
+
+      <td>
+        <input style="text-align: center; font-family: fantasy;" class="input2" type="text" placeholder=" Units" name="">
+      </td>
+       
+    </tr>
+    <tr style="background-color: white">
+      <td colspan="3">
+        <button id="add" class="btn btn-success">ADD Course</button>
+      </td>
+    </tr>
+    <tr class="bg-info">
+      <td colspan="3">
+        <input style="text-align: center; font-family: fantasy;" class="input3" type="text" placeholder="total units">
+      </td>
+    </tr>
+     <tr style="background-color: white">
+      <td colspan="3">
+        <button id="butt" class="btn btn-success">GET YOUR GP</button>
+      </td>
+    </tr>
+    <tr style="background-color: white">
+      <td colspan="3">
+        <h6>By Bonatheripper</h6>
+      </td>
+    </tr>
+    
+  </tbody>
+</table>
+<!-- This part Adds New Course to table below  -->
+<div style="border: 10px solid green; border-radius: 50px; color: solid black; text-align: center;margin: 0 auto;  width: 400px; height: 80px; font-family: fantasy; padding-top: 5px; padding-bottom: 5px; "><div>
+  CGPA = <span class="1score">0</span>
+</div> 
+</div>
+
+<table id="ts" class="table table-dark" style="width:50%">
+  <tr class="bg-danger">
+    <th >Course Name</th>
+    <th>Grade</th>
+    <th>Units</th>
+  </tr>
+  <tbody id="tb" class="course">
+     
+    
+  </tbody>
+ 
+  
+</table>
+  </div>
+</div>
+<script type="text/javascript" src="assets/js/js.js"></script>
+
+
+
+
+
+
+
+
+
+
+	
+
+</body>
+
+</html>
